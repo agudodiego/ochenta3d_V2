@@ -1,11 +1,25 @@
-/* .navbar{
-    width: 20%;
-    height: 100vh;
-    align-items: flex-start;
-} */
+:root {
+    --main-color-dark: #334048ff;
+    --main-color-light: #757575ff;
+    --main-color-orange: #ff9800ff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: var(--main-color-dark);
+}
 
 
+@media only screen and (max-width: 741px) {
 
-.hr{
-    color: black;
+    /* .logo__text {
+        display: none;
+    } */
+
+    /* .logo__img{
+        width: 50px;
+    } */
 }
