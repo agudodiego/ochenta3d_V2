@@ -1,0 +1,286 @@
+:root {
+    --main-color-dark: #334048ff;
+    --main-color-light: #757575ff;
+    --main-color-orange: #ff9800ff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: var(--main-color-dark);
+    padding: 1em 5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    --animate-duration: 1.5s;
+}
+
+.logo__text {
+    margin: .3em;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    --animate-duration: 1.5s;
+}
+
+.links button {
+    margin-left: 2em;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.main {
+    background-color: var(--main-color-dark);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.main__title {
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.main__subtitle{
+    color: var(--main-color-orange);
+}
+
+.main__text {
+    color: #aaa;
+    font-size: 1.5em;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0));
+    padding: 1em;
+}
+
+.main__img {
+    width: 90%;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+}
+
+/**************ANIMACION LADRILLITOS*******************/
+.animLadrillitos{
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 200px;
+}
+
+.ladriBig{
+    position: absolute;
+    left: 1em;
+    animation: lluviaLadrillos1 7s infinite linear;
+}
+
+.ladriMed{
+    position: absolute;
+    width: 35%;
+    left: 2.5em;
+    animation: lluviaLadrillos2 9s infinite linear;
+}
+
+.ladriSmall{
+    position: absolute;
+    width: 25%;
+    left: 2.5em;
+    animation: lluviaLadrillos3 5s infinite linear;
+}
+
+@keyframes lluviaLadrillos1{
+    from{
+        filter: opacity(0.1);
+        transform: translateY(0) rotate(0deg);
+    }
+    to{
+        filter: opacity(0.7);
+        transform: translateY(700px) rotate(80deg);
+    }
+}
+
+@keyframes lluviaLadrillos2{
+    from{
+        filter: opacity(0.1);
+        transform: translateY(0) rotate(0deg);
+    }
+    to{
+        filter: opacity(0.8);
+        transform: translateY(700px) rotate(-150deg);
+    }
+}
+
+@keyframes lluviaLadrillos3{
+    from{
+        filter: opacity(0.1);
+        transform: translateY(0) rotate(0deg);
+    }
+    to{
+        filter: opacity(1);
+        transform: translateY(700px) rotate(180deg);
+    }
+}
+
+/*************PERSONAJES*******************/
+.personajes{
+    background-color: #5d747eff;
+    padding: 1em 4em;
+}
+
+.personajes h2{
+    font-weight: bold;
+    margin-right: .3em;
+}
+
+.personajes__logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.personajes__title{
+    font-size: 1.5em;
+    color: var(--main-color-orange);
+}
+
+.personajes__desc {
+    color: #aaa;
+    font-size: 1.5em;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0));
+    padding: 0 2em;
+}
+
+.italic_orange{
+    color: var(--main-color-orange);
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.personajes__text button{
+    margin-left: 45%;
+}
+
+/**************CONTACTO********************/
+
+.contacto{
+    background-color: var(--main-color-dark);
+}
+
+.contacto__img{
+    width: 60%;
+}
+
+.contacto__redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacto__logo{
+    width: 50px;
+    margin: 0 1em;
+}
+
+.contacto__logo:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+.contacto__redes p{
+    color: var(--main-color-orange);
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.3em;
+}
+
+/* *********** MEDIA QUERIES **************/
+
+@media only screen and (max-width: 741px) {
+
+    .header {
+        padding: 1em 1.3em;
+    }
+
+    .logo__text {
+        display: none;
+    }
+
+    .logo__img{
+        width: 50px;
+    }
+
+    .links button {
+        margin-left: 0.5em;
+    }
+
+    .main__text, .personajes__desc {
+        font-size: 1em;
+    }
+
+    .personajes__desc{
+        padding: 0.6em;
+    }
+
+    .personajes{
+        padding: 2.5em;
+    }
+
+    .personajes__imagen{
+        
+    }
+
+    .section, .personajes__text{
+        margin: auto;
+    }
+
+    .personajes h2{
+        margin: 0 auto;
+    }
+
+    .personajes__text button{
+        margin-left: 35%;
+    }
+
+    .contacto__logo{
+        margin-bottom: 1em;
+    }
+
+    .contacto__redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__img{
+        display: none;
+    }
+
+    .contacto__redes p{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .section{
+        height: 90vh;
+    }
+
+    .main__text, .personajes__desc{
+        font-size: 2em;
+    }
+
+    .contacto__img{
+        width: 40%;
+    }
+}

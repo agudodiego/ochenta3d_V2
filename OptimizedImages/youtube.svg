@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60.199829"
+   height="60.199829"
+   viewBox="0 0 60.199829 60.199829"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="mock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.32404747"
+     inkscape:cx="1168.0387"
+     inkscape:cy="925.79029"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-940.55676,-1723.71)"><g
+       id="g1168"
+       transform="matrix(4.2148634,0,0,4.2148634,911.44865,1620.7409)"><circle
+         style="display:inline;fill:none;stroke:#e0931b;stroke-width:0.142353;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="path858-7"
+         cx="14.047439"
+         cy="31.571356"
+         r="7.0701938" /><path
+         id="rect1868"
+         style="fill:#e0931b;fill-opacity:1;stroke:none;stroke-width:0.78;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m 10.921307,28.530293 c -0.742759,0 -1.3405865,0.767335 -1.3405865,1.720567 v 2.827141 c 0,0.953232 0.5978275,1.720567 1.3405865,1.720567 h 6.296542 c 0.742759,0 1.34105,-0.767335 1.34105,-1.720567 V 30.25086 c 0,-0.953232 -0.598291,-1.720567 -1.34105,-1.720567 z m 2.120472,1.567648 2.471259,1.28637 -2.471259,1.426314 z" /></g></g></svg>
