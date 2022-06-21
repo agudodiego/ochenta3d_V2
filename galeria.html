@@ -76,11 +76,16 @@
     <main class="main container-fluid">
         <div class="row">
 
-            <div class="descripcion col-sm-5 m-5">
-                
-                <h2 class="my-2">Andanzas de Patoruzú</h2>
+            <div class="description col-sm-5 mx-5 my-3">
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ea similique consectetur soluta
+                <div class="logo">
+                    <img class="logo__img" src="OptimizedImages/logoLight.svg" alt="">
+                    <img class="logo__text" src="OptimizedImages/texto803d.svg" alt="">
+                </div>
+                
+                <h2 class="my-4">Andanzas de Patoruzú</h2>
+
+                <p class="description__text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ea similique consectetur soluta
                     libero, vel nisi iste deleniti suscipit? Quisquam commodi, eligendi cumque tempore reprehenderit eos
                     fugiat sed ipsam quam architecto reiciendis, officiis alias voluptatem repudiandae beatae impedit
                     minus laboriosam, ducimus consectetur labore sint voluptate aut ad! Dolorum molestias rerum ab
@@ -89,23 +94,23 @@
                     tenetur suscipit iure id blanditiis excepturi numquam ex veniam nobis. Neque vel culpa cum fuga,
                     quaerat laborum aliquid fugit expedita et aspernatur id at.
                 </p>
+                <div class="description__download mt-4">
+                    <img src="OptimizedImages/download.svg" alt="">
+                </div>
             </div>
 
             <div class="video col-sm-5 my-3">
-                <div class="logo float-end">
-                    <img class="logo__img" src="OptimizedImages/logoLight.svg" alt="">
-                    <img class="logo__text" src="OptimizedImages/texto803d.svg" alt="">
-                </div>
+                
 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
+                      <div class="carousel-item active" active data-bs-interval="0">
                         <img src="./OptimizedImages/imagenVideo.png" class="d-block w-100" alt="...">
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item" active data-bs-interval="0">
                         <img src="./OptimizedImages/imagenVideo.png" class="d-block w-100" alt="...">
                       </div>
-                      <div class="carousel-item">
+                      <div class="carousel-item" active data-bs-interval="0">
                         <img src="./OptimizedImages/imagenVideo.png" class="d-block w-100" alt="...">
                       </div>
                     </div>
@@ -118,7 +123,7 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
             </div>
         </div>
 
