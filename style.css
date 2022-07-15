@@ -139,6 +139,10 @@
     padding: 1em 4em;
 }
 
+.imagen2{
+    display: none;
+}
+
 .personajes h2{
     font-weight: bold;
     margin-right: .3em;
@@ -228,16 +232,20 @@
         font-size: 1em;
     }
 
+    .imagen1{
+        display: none;
+    }
+
+    .imagen2{
+        display: block;
+    }
+
     .personajes__desc{
         padding: 0.6em;
     }
 
     .personajes{
         padding: 2.5em;
-    }
-
-    .personajes__imagen{
-        
     }
 
     .section, .personajes__text{
