@@ -12,6 +12,14 @@ body{
     background-color: var(--main-color-dark);
 }
 
+.navbar{
+    --animate-duration: 1.5s
+}
+
+.navbar-nav > li > .dropdown-menu a{   
+    color: #aaa;  
+}
+
 .main h2{
     color: var(--main-color-orange);
 }
@@ -21,11 +29,18 @@ body{
     font-size: 1em;
 }
 
+.description__download:hover{
+    cursor: pointer;
+}
+
+
+
 /* .carousel-inner{
-    height: 400px;
+    height: 550px;
 } */
 
-@media only screen and (max-width: 741px) {
+@media only screen and (max-width: 768px) {
+
 
     /* .logo__text {
         display: none;
