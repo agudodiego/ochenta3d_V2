@@ -69,6 +69,20 @@
     filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
 }
 
+.hide{
+    display: none;
+}
+
+.header_registro{
+    text-align: right;
+}
+
+#txtRegistro{
+    color: var(--main-color-orange);
+    font-size: 1em;
+    margin: 0;
+}
+
 /**************ANIMACION LADRILLITOS*******************/
 .animLadrillitos{
     right: 0;
